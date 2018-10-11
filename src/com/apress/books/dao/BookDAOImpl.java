@@ -45,7 +45,7 @@ public class BookDAOImpl implements BookDAO{
 	private Connection getConnection() throws SQLException {
 		/** Details of Data Base AWS **/
 		System.out.println("Connecting to Data Base");
-		return DriverManager.getConnection("jdbc:mysql://bookstore.cemhe8g33h5g.us-east-2.rds.amazonaws.com:3306/books?autoReconnect=true&useSSL=false","admin","1T4LC0Ladmin$$$$");
+		return DriverManager.getConnection("jdbc:mysql://xxxxxx.xxxxx.xxxxxxx:3306/books?autoReconnect=true&useSSL=false","user","pass");
 		
 	}
 	
